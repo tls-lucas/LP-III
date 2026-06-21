@@ -1,0 +1,23 @@
+{
+  "startsWith": "Começa com",
+  "contains": "Contém",
+  "notContains": "Não contém",
+  "endsWith": "Termina com",
+  "equals": "Igual",
+  "notEquals": "Diferente",
+  "noFilter": "Sem filtro",
+  "lt": "Menor que",
+  "lte": "Menor que ou igual a",
+  "gt": "Maior que",
+  "gte": "Maior que ou igual a",
+  "dateIs": "Data é",
+  "dateIsNot": "Data não é",
+  "dateBefore": "Data antes de",
+  "dateAfter": "Data depois de",
+  "clear": "Limpar",
+  "apply": "Aplicar",
+  "matchAll": "Corresponder todos",
+  "matchAny": "Corresponder qualquer",
+  "addRule": "Adicionar regra",
+  "removeRule": "Remover regra"
+}
