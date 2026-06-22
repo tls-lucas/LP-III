@@ -27,7 +27,7 @@ export default function ConsultarPeriodoVisita() {
     periodo_visitaConsultada,
     periodo_visitaReserva,
     setDiretorAquarioProponente,
-    reservaConsultada,
+    reservaConsultado,
   } = useContext(ContextoDiretorEscola);
   const dados = {
     nome_diretor_aquario:
@@ -46,9 +46,9 @@ export default function ConsultarPeriodoVisita() {
   };
   const navegar = useNavigate();
   function consultarDiretorAquarioProponente() {
-    if (reservaConsultada)
-      setDiretorAquarioProponente(periodo_visitaConsultada.diretor_aquario);
-    else setDiretorAquarioProponente(periodo_visitaConsultada.diretor_aquario);
+    if (reservaConsultado)
+      setDiretorAquarioProponente(periodo_visitaReserva?.diretor_aquario);
+    else setDiretorAquarioProponente(periodo_visitaConsultada?.diretor_aquario);
     navegar("../consultar-diretor-aquario-proponente");
   }
   function retornar() {

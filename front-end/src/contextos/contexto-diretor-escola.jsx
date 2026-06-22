@@ -2,7 +2,7 @@ import { createContext, useState } from "react";
 const ContextoDiretorEscola = createContext();
 export default ContextoDiretorEscola;
 export function ProvedorDiretorEscola({ children }) {
-  const [reservaConsultada, setReservaConsultado] = useState({});
+  const [reservaConsultado, setReservaConsultado] = useState({});
   const [periodo_visitaConsultada, setPeriodoVisitaConsultada] = useState({});
   const [periodo_visitaSelecionada, setPeriodoVisitaSelecionada] = useState({});
   const [periodo_visitaReserva, setPeriodoVisitaReserva] = useState({});
@@ -10,7 +10,7 @@ export function ProvedorDiretorEscola({ children }) {
   return (
     <ContextoDiretorEscola.Provider
       value={{
-        reservaConsultada,
+        reservaConsultado,
         setReservaConsultado,
         periodo_visitaConsultada,
         setPeriodoVisitaConsultada,

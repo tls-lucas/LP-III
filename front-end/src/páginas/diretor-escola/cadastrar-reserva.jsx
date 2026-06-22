@@ -132,7 +132,7 @@ export default function CadastrarReserva() {
           <Button
             className={estilizarBotão()}
             label="Proposta"
-            onClick={consultarPeriodoVisitaReserva()}
+            onClick={consultarPeriodoVisitaReserva}
           />
         </div>
       );
